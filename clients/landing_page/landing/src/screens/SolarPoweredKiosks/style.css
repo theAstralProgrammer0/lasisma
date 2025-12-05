@@ -1,0 +1,152 @@
+.solar-powered-kiosks {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+  padding: 28px;
+  position: relative;
+}
+
+.solar-powered-kiosks .frame-wrapper-4 {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+  padding: 28px;
+  width: 1009px;
+}
+
+.solar-powered-kiosks .frame-16 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.solar-powered-kiosks .text-wrapper-16 {
+  color: #00000085;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 953px;
+}
+
+.solar-powered-kiosks .frame-17 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 98px;
+  padding: 0px 54px;
+  position: relative;
+}
+
+.solar-powered-kiosks .inner-frame-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 11px;
+  position: relative;
+}
+
+.solar-powered-kiosks .frame-18 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.solar-powered-kiosks .component-1 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.solar-powered-kiosks .text-wrapper-17 {
+  color: #000000;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.solar-powered-kiosks .carousel-2 {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  gap: 34px;
+  height: 260px;
+  overflow: hidden;
+  position: relative;
+  width: 953px;
+}
+
+.solar-powered-kiosks .image-9 {
+  background-image: url(../../../static/img/image-4-3.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 18px;
+  height: 260px;
+  position: relative;
+  width: 375px;
+}
+
+.solar-powered-kiosks .image-10 {
+  background-image: url(../../../static/img/image-1-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 18px;
+  height: 260px;
+  position: relative;
+  width: 375px;
+}
+
+.solar-powered-kiosks .image-11 {
+  background-image: url(../../../static/img/image-5-2.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 18px;
+  height: 260px;
+  position: relative;
+  width: 375px;
+}
+
+.solar-powered-kiosks .image-12 {
+  background-image: url(../../../static/img/image-2-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 18px;
+  height: 260px;
+  position: relative;
+  width: 375px;
+}
+
+.solar-powered-kiosks .image-13 {
+  background-image: url(../../../static/img/image-3-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 18px;
+  height: 260px;
+  position: relative;
+  width: 375px;
+}

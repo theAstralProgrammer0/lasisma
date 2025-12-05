@@ -1,0 +1,1 @@
+export { TdesignLettersS } from "./TdesignLettersS";
