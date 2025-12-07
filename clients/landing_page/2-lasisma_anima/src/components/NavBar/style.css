@@ -1,0 +1,99 @@
+.nav-bar {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 0.2px solid;
+  border-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 101px;
+  position: relative;
+  top: 40px;
+  width: 100%;
+}
+
+.nav-bar .menu {
+  align-items: center;
+  align-self: stretch;
+  background-color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.nav-bar .logos {
+  align-items: center;
+  background-color: #ffffff;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  position: relative;
+}
+
+.nav-bar .nav-links {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  position: relative;
+  width: 637px;
+}
+
+.nav-bar .ABOUT-LASPEMA {
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  position: relative;
+  width: 128px;
+}
+
+.nav-bar .text-wrapper-33 {
+  color: #000000;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.nav-bar .SERVICES-navlink {
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  position: relative;
+  width: 84px;
+}
+
+.nav-bar .NEWSROOM-navlink {
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  position: relative;
+  width: 101px;
+}
+
+.nav-bar .CONNECT-navlink {
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  position: relative;
+  width: 86px;
+}
+
+.nav-bar .action-items {
+  align-items: center;
+  background-color: #ffffff;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 14px;
+  position: relative;
+}

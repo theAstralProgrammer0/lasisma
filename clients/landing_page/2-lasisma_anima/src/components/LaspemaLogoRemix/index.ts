@@ -1,0 +1,1 @@
+export { LaspemaLogoRemix } from "./LaspemaLogoRemix";

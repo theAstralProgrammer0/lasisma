@@ -1,0 +1,389 @@
+.report-form {
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #00000017;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-radius: 12px 0px 0px 12px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 1200px;
+  overflow: hidden;
+  width: 760px;
+}
+
+.report-form .head {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 94px;
+  padding: 2px 25px;
+  position: relative;
+  width: 670px;
+}
+
+.report-form .heading {
+  align-items: center;
+  align-self: stretch;
+  background-color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 190px;
+  position: relative;
+  width: 100%;
+}
+
+.report-form .text-wrapper-9 {
+  color: #1e1e1e;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -17.00px;
+  margin-right: -17.00px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.report-form .sub-heading {
+  align-items: center;
+  align-self: stretch;
+  background-color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 5px 211px;
+  position: relative;
+  width: 100%;
+}
+
+.report-form .text-wrapper-10 {
+  color: #00000066;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -14.50px;
+  margin-right: -14.50px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.report-form .div-wrapper-2 {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 118px;
+  padding: 10px;
+  position: relative;
+  width: 670px;
+}
+
+.report-form .div-2 {
+  align-items: flex-end;
+  align-self: stretch;
+  background-color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 15px 18px;
+  position: relative;
+  width: 100%;
+}
+
+.report-form .div-3 {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  width: 650px;
+}
+
+.report-form .text-wrapper-11 {
+  color: #000000;
+  flex: 1;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.report-form .div-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 316px;
+}
+
+.report-form .div-5 {
+  align-self: stretch;
+  border: 0.5px solid;
+  border-color: #00000017;
+  border-radius: 5px;
+  height: 37px;
+  position: relative;
+  width: 100%;
+}
+
+.report-form .input {
+  align-self: stretch;
+  background-color: #ffffff;
+  border: none;
+  color: #00000066;
+  flex: 1;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.report-form .choose-on-map-link {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 4px 0px;
+  position: relative;
+}
+
+.report-form .text-wrapper-12 {
+  color: #4d8eff;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.50px;
+  position: relative;
+  width: fit-content;
+}
+
+.report-form .div-wrapper-3 {
+  align-items: center;
+  align-self: stretch;
+  background-color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.report-form .text-wrapper-13 {
+  color: #00000066;
+  flex: 1;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.report-form .LGA-dropdown {
+  align-self: stretch;
+  border: 0.5px solid;
+  border-color: #00000017;
+  border-radius: 5px;
+  height: 37px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.report-form .div-wrapper-4 {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 220px;
+  padding: 10px;
+  position: relative;
+  width: 670px;
+}
+
+.report-form .div-6 {
+  align-self: stretch;
+  background-color: #ffffff;
+  height: 200px;
+  position: relative;
+  width: 100%;
+}
+
+.report-form .description {
+  align-items: flex-start;
+  border: 0.5px solid;
+  border-color: #00000017;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 165px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 35px;
+  width: 650px;
+}
+
+.report-form .description-text {
+  align-self: stretch;
+  border: 0.5px solid;
+  border-color: #00000017;
+  border-radius: 5px;
+  flex: 1;
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.report-form .description-2 {
+  color: #00000066;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10px;
+}
+
+.report-form .div-wrapper-5 {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 650px;
+}
+
+.report-form .upload {
+  align-items: center;
+  background-color: #00000005;
+  border: 0.5px dashed;
+  border-color: #00000066;
+  border-radius: 5px;
+  display: flex;
+  height: 165px;
+  justify-content: center;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 35px;
+  width: 650px;
+}
+
+.report-form .browse {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 82px;
+  justify-content: space-between;
+  margin-top: 1px;
+  overflow: hidden;
+  position: relative;
+  width: 180px;
+}
+
+.report-form .text-wrapper-14 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+}
+
+.report-form .text-wrapper-15 {
+  color: #00000033;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.report-form .submit {
+  all: unset;
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 77px;
+  padding: 10px 0px;
+  position: relative;
+  width: 670px;
+}
+
+.report-form .submit-button {
+  all: unset;
+  align-items: center;
+  align-self: stretch;
+  background-color: #32c76d;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 16px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.report-form .text-wrapper-16 {
+  color: #ffffff;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}

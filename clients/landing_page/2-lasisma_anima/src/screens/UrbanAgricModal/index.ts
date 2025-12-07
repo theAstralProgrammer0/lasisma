@@ -1,0 +1,1 @@
+export { UrbanAgricModal } from "./UrbanAgricModal";

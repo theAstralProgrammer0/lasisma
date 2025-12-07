@@ -1,0 +1,1 @@
+export { UisArrowUpRight } from "./UisArrowUpRight";

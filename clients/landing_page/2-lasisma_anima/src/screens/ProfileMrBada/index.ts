@@ -1,0 +1,1 @@
+export { ProfileMrBada } from "./ProfileMrBada";

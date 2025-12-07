@@ -1,0 +1,113 @@
+.news-card {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 383px;
+  justify-content: space-between;
+  left: 150px;
+  position: relative;
+  top: 150px;
+  width: 350px;
+}
+
+.news-card .image {
+  align-self: stretch;
+  background-image: url(../../../static/img/image-46.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 9px;
+  height: 220px;
+  position: relative;
+  width: 100%;
+}
+
+.news-card .date {
+  align-self: stretch;
+  background-color: #ffffff;
+  height: 19px;
+  position: relative;
+  width: 100%;
+}
+
+.news-card .text-wrapper-17 {
+  color: #000000;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 1.44px;
+  line-height: normal;
+  position: absolute;
+  top: calc(50.00% - 8px);
+  width: 350px;
+}
+
+.news-card .headline {
+  align-self: stretch;
+  background-color: #ffffff;
+  height: 62px;
+  position: relative;
+  width: 100%;
+}
+
+.news-card .LASISMA-receives {
+  color: #000000;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: absolute;
+  top: 0;
+  width: 315px;
+}
+
+.news-card .post-duration {
+  align-items: center;
+  align-self: stretch;
+  background-color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.news-card .timeline {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.news-card .text-wrapper-18 {
+  color: #000000;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1.68px;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.news-card .read-more {
+  height: 15px;
+  position: relative;
+  width: 83px;
+}
+
+.news-card .text-wrapper-19 {
+  color: #25814a;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1.68px;
+  line-height: normal;
+  position: absolute;
+  right: 0;
+  top: calc(50.00% - 8px);
+}
