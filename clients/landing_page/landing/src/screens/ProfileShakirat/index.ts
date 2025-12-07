@@ -1,1 +1,0 @@
-export { ProfileShakirat } from "./ProfileShakirat";

@@ -1,1 +1,0 @@
-export { HumbleiconsArrowGoBack } from "./HumbleiconsArrowGoBack";

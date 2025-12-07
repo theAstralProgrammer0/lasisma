@@ -1,1 +1,0 @@
-export { ProfileMrOjerinde } from "./ProfileMrOjerinde";

@@ -1,1 +1,0 @@
-export { HyspacModal } from "./HyspacModal";

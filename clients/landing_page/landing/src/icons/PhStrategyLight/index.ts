@@ -1,1 +1,0 @@
-export { PhStrategyLight } from "./PhStrategyLight";

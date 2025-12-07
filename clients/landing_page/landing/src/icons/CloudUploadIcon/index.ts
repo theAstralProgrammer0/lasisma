@@ -1,1 +1,0 @@
-export { CloudUploadIcon } from "./CloudUploadIcon";

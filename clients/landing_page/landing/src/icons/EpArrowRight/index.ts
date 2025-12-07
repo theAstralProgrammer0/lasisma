@@ -1,1 +1,0 @@
-export { EpArrowRight } from "./EpArrowRight";
