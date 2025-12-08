@@ -1,0 +1,45 @@
+.LASPEMA-logo-remix {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.98px;
+  left: 4296px;
+  padding: 5.51px;
+  position: relative;
+  top: 112px;
+}
+
+.LASPEMA-logo-remix .outermost-ellipse {
+  aspect-ratio: 1;
+  height: 43.98px;
+  position: relative;
+  width: 43.98px;
+}
+
+.LASPEMA-logo-remix .text-ring {
+  aspect-ratio: 1;
+  height: 53px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 53px;
+}
+
+.LASPEMA-logo-remix .middle-ellipse {
+  aspect-ratio: 1;
+  border-radius: 15.99px;
+  height: 32px;
+  left: 12px;
+  position: absolute;
+  top: 12px;
+  width: 32px;
+}
+
+.LASPEMA-logo-remix .lagos-logo {
+  aspect-ratio: 0.99;
+  height: 17px;
+  left: 19px;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 17px;
+}

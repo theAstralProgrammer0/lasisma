@@ -1,0 +1,1 @@
+export { EmergencyInfo } from "./EmergencyInfo";

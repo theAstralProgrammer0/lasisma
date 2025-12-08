@@ -1,0 +1,41 @@
+.lasg-strip {
+  height: 5px;
+  position: relative;
+  width: 100%;
+}
+
+.lasg-strip .lasg-green-strip {
+  background-color: #32c76d;
+  height: 5px;
+  left: 75.00%;
+  position: absolute;
+  top: 0;
+  width: 25.00%;
+}
+
+.lasg-strip .lasg-yellow-strip {
+  background-color: #ffbb32;
+  height: 5px;
+  left: 50.00%;
+  position: absolute;
+  top: 0;
+  width: 25.00%;
+}
+
+.lasg-strip .lasg-blue-strip {
+  background-color: #4d8eff;
+  height: 5px;
+  left: 25.00%;
+  position: absolute;
+  top: 0;
+  width: 25.00%;
+}
+
+.lasg-strip .lasg-red-strip {
+  background-color: #e83b50;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 25.00%;
+}

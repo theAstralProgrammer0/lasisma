@@ -1,0 +1,28 @@
+.learn-more-button {
+  all: unset;
+  align-items: center;
+  background-color: #32c76d;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  height: 48px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 16px 0px;
+  position: relative;
+  top: 369px;
+  width: 109px;
+}
+
+.learn-more-button .text-wrapper-24 {
+  color: #ffffff;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -2.00px;
+  position: relative;
+  width: fit-content;
+}

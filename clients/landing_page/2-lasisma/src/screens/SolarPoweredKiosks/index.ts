@@ -1,0 +1,1 @@
+export { SolarPoweredKiosks } from "./SolarPoweredKiosks";
