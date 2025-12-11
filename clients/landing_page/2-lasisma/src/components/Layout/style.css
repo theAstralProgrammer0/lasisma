@@ -1,0 +1,632 @@
+/* Nav Bar */
+
+/* Auto layout */
+.nav-bar {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 101px;
+gap: 10px;
+
+position: absolute;
+height: 80px;
+left: 0%;
+right: 0%;
+top: 40px;
+
+background: #FFFFFF;
+border: 0.2px solid #D9D9D9;
+}
+
+/* Menu
+
+/* Auto layout
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 278px;
+
+width: 1310px;
+height: 80px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Logos */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+margin: 0 auto;
+width: 142px;
+height: 68px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* LASPEMA Logo  */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 6.81217px;
+gap: 1.22px;
+isolation: isolate;
+
+width: 68px;
+height: 68px;
+
+background: url(lagos gold crest);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* outermost ellipse */
+
+box-sizing: border-box;
+
+margin: 0 auto;
+display: none;
+width: 54.38px;
+height: 54.38px;
+
+background: #26824A;
+border: 0.729875px solid #FFBB32;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* text ring */
+
+position: absolute;
+display: none;
+width: 48.66px;
+height: 48.66px;
+left: 1.33px;
+top: 1.33px;
+
+background: #FFFFFF;
+transform: rotate(-63deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* middle ellipse */
+
+position: absolute;
+display: none;
+width: 39.53px;
+height: 39.53px;
+left: 14.23px;
+top: 14.35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Lagos-logo 1 */
+
+position: absolute;
+display: none;
+width: 20.5px;
+height: 20.8px;
+left: 23.84px;
+top: 23.71px;
+
+background: url(Lagos-logo);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* LASPEMA Logo  */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6.81217px;
+gap: 1.22px;
+isolation: isolate;
+
+width: 68px;
+height: 68px;
+
+background: url(LASISMA logo - no backgrnd.png);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* outermost ellipse */
+
+box-sizing: border-box;
+
+display: none;
+width: 54.38px;
+height: 54.38px;
+
+background: #26824A;
+border: 0.729875px solid #FFBB32;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* text ring */
+
+position: absolute;
+display: none;
+width: 48.66px;
+height: 48.66px;
+left: 1.33px;
+top: 1.33px;
+
+background: #FFFFFF;
+transform: rotate(-63deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* middle ellipse */
+
+position: absolute;
+display: none;
+width: 39.53px;
+height: 39.53px;
+left: 14.23px;
+top: 14.35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Lagos-logo 1 */
+
+position: absolute;
+display: none;
+width: 20.5px;
+height: 20.8px;
+left: 23.84px;
+top: 23.71px;
+
+background: url(Lagos-logo);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* NavLinks */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 44px;
+
+margin: 0 auto;
+width: 637px;
+height: 80px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ABOUT LASPEMA NavLink */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 128px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ABOUT LASISMA */
+
+margin: 0 auto;
+width: 99px;
+height: 15px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* arrow-down-icon */
+
+margin: 0 auto;
+width: 14px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+border: 1.5px solid #000000;
+
+
+/* SERVICES NavLink */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 84px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* SERVICES */
+
+margin: 0 auto;
+width: 60px;
+height: 15px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* arrow-down-icon */
+
+margin: 0 auto;
+width: 14px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 41.67%;
+bottom: 37.5%;
+
+border: 1.5px solid #000000;
+
+
+/* NEWSROOM NavLink */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 101px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* NEWSROOM */
+
+margin: 0 auto;
+width: 77px;
+height: 15px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* arrow-up-right-icon */
+
+margin: 0 auto;
+width: 14px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+background: #000000;
+
+
+/* CONNECT NavLink */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 86px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* CONNECT */
+
+margin: 0 auto;
+width: 62px;
+height: 15px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* arrow-up-right-icon */
+
+margin: 0 auto;
+width: 14px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+background: #000000;
+
+
+/* Action Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+margin: 0 auto;
+width: 62px;
+height: 24px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* User */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 16.67%;
+bottom: 16.67%;
+
+border: 1.5px solid #000000;
+
+
+/* Search */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 2px solid #000000;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { LaspemaLogoRemix } from "../LaspemaLogoRemix";
 import { SearchIcon } from "../SearchIcon";
 import { UserIcon } from "../UserIcon";
 import "./style.css";
 
 export const NavBar = (): JSX.Element => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("");
 
   const toggleMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -14,13 +14,6 @@ export const NavBar = (): JSX.Element => {
 
   const closeMenu = () => {
     setIsMobileMenuOpen(false);
-  };
-
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Search for:', searchQuery);
-    // Implement search functionality here
-    closeMenu();
   };
 
   return (
@@ -41,11 +34,7 @@ export const NavBar = (): JSX.Element => {
             </div>
             <div className="navbar__separator"></div>
             <div className="navbar__logo-wrapper">
-              <img 
-                className="navbar__logo-lasisma" 
-                src="/img/lasisma-logo.png" 
-                alt="LASISMA Logo" 
-              />
+              <LaspemaLogoRemix />
             </div>
           </Link>
 
@@ -73,20 +62,14 @@ export const NavBar = (): JSX.Element => {
               <button 
                 className="navbar__action-btn" 
                 aria-label="Search"
-                onClick={() => {
-                  console.log('Search clicked');
-                  // Implement search modal or redirect to search page
-                }}
+                onClick={() => console.log('Search clicked')}
               >
                 <SearchIcon className="navbar__icon" />
               </button>
               <button 
                 className="navbar__action-btn" 
                 aria-label="User Account"
-                onClick={() => {
-                  console.log('User clicked');
-                  // Implement user account modal or redirect to login
-                }}
+                onClick={() => console.log('User clicked')}
               >
                 <div className="navbar__icon-wrapper">
                   <UserIcon className="navbar__icon" />
@@ -97,10 +80,10 @@ export const NavBar = (): JSX.Element => {
 
           {/* Mobile Menu Toggle */}
           <button 
-            className={`navbar__toggle mobile-only ${isMobileMenuOpen ? 'navbar__toggle--open' : ''}`}
+            className="navbar__toggle mobile-only"
             onClick={toggleMenu}
             aria-expanded={isMobileMenuOpen}
-            aria-label={isMobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+            aria-label="Toggle navigation menu"
           >
             <span className="navbar__toggle-icon"></span>
             <span className="navbar__toggle-icon"></span>
@@ -112,29 +95,6 @@ export const NavBar = (): JSX.Element => {
       {/* Mobile Menu Overlay */}
       <div className={`navbar__mobile-menu ${isMobileMenuOpen ? 'navbar__mobile-menu--open' : ''}`}>
         <div className="navbar__mobile-container">
-          {/* Mobile Search Form */}
-          <form className="navbar__mobile-search" onSubmit={handleSearch}>
-            <div className="navbar__mobile-search-wrapper">
-              <SearchIcon className="navbar__mobile-search-icon" />
-              <input
-                type="text"
-                className="navbar__mobile-search-input"
-                placeholder="Search LASISMA..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                aria-label="Search input"
-              />
-            </div>
-            <button 
-              type="submit" 
-              className="navbar__mobile-search-submit"
-              aria-label="Submit search"
-            >
-              <SearchIcon className="navbar__mobile-search-submit-icon" />
-            </button>
-          </form>
-
-          {/* Mobile Navigation Links */}
           <ul className="navbar__mobile-links">
             <li className="navbar__mobile-item">
               <Link to="/about-laspema" className="navbar__mobile-link" onClick={closeMenu}>
@@ -158,8 +118,17 @@ export const NavBar = (): JSX.Element => {
             </li>
           </ul>
           
-          {/* Mobile User Action */}
           <div className="navbar__mobile-actions">
+            <button 
+              className="navbar__mobile-action"
+              onClick={() => {
+                console.log('Mobile search clicked');
+                closeMenu();
+              }}
+            >
+              <SearchIcon className="navbar__mobile-icon" />
+              <span>Search</span>
+            </button>
             <button 
               className="navbar__mobile-action"
               onClick={() => {
@@ -168,7 +137,7 @@ export const NavBar = (): JSX.Element => {
               }}
             >
               <UserIcon className="navbar__mobile-icon" />
-              <span>Account</span>
+              <span>Profile</span>
             </button>
           </div>
         </div>
